@@ -1,9 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import { loginSiteConfig, siteConfig } from "@/config/site";
-import Logo from "@/components/logo";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import ImgBackground from "@/components/imgbg";
 import TitleForm from "@/components/titleform";
 import InputEmail from "@/components/ui/inputemail";
@@ -28,7 +24,7 @@ const SignUp = () => {
 
           {/* Input Email */}
           <InputEmail />
-      
+
           {/* little-title */}
           <p className="text-left text-[12px] mt-3">
             By signing up, I accept the Atlassian{" "}
@@ -49,8 +45,7 @@ const SignUp = () => {
           {/* Third Login */}
           <OAuthButtons />
 
-      
-          {/* Link-Login*/}  
+          {/* Link-Login*/}
           <Link href="/login">
             <div className="text-center text-sm text-blue-800 font-normal mt-6 pb-5 hover:underline border-b border-gray-200">
               Already have an Atlassian account? Log in
@@ -77,7 +72,6 @@ const SignUp = () => {
             </a>
             apply.
           </p>
-          
         </div>
       </div>
     </div>

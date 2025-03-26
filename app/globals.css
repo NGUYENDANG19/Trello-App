@@ -125,21 +125,21 @@
   }
 }
 
-.LayoutForm{
+.LayoutForm {
   @apply bg-[#fafbfc] w-full h-screen flex justify-center items-center relative overflow-hidden;
 }
 .ContainerForm {
   @apply absolute inset-0 flex justify-center overflow-y-auto;
 }
-.Form{
+.Form {
   @apply bg-white p-6 border-gray-100 shadow-2xl border w-[400px] h-[730px] mt-12 py-8 px-10;
 }
-.h5Title{
+.h5Title {
   @apply text-center text-black font-semibold;
 }
-.OrCoutinueWith{
+.OrCoutinueWith {
   @apply text-center text-sm text-gray-900 font-normal mt-6;
 }
-.CanLogin{
+.CanLogin {
   @apply flex items-center justify-center text-sm text-blue-800 font-normal gap-2 mt-6 pb-5 border-b border-gray-200;
 }

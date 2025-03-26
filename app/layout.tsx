@@ -16,15 +16,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: {
     default: siteConfig.description,
-    template:'%s | ${siteConfig.description}',
+    template: "%s | ${siteConfig.description}",
   },
   description: siteConfig.description,
-  icons:[
+  icons: [
     {
       url: "/trello-svgrepo-com.svg",
       href: "/trello-svgrepo-com.svg",
     },
-  ]
+  ],
 };
 
 export default function RootLayout({

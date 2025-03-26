@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="items-center justify-center  pt-20 bottom-0 w-full bg-gray-100  border-t border-gray-200">
+    <div className="items-center justify-center pt-20 bottom-0 w-full bg-gray-100 border-t border-gray-200">
       <h2 className="text-[#091e42] font-[Charlie_Display] text-[36px] font-semibold leading-[48px] m-0 mb-6 text-center">
         Get started with Trello today
       </h2>
@@ -32,11 +32,11 @@ const Footer = () => {
 
           {/* Phần dưới */}
           <div className="flex flex-wrap justify-between items-center mt-4 text-white/80 text-xs">
-            <div className="flex  gap-2">
+            <div className="flex gap-2">
               <span>🌍</span>
               <span>English</span>
             </div>
-            <div className="flex gap-4    ">
+            <div className="flex gap-4">
               <a href="#">Privacy Policy</a>
               <a href="#">Terms</a>
               <span>Copyright © 2024 Atlassian</span>
