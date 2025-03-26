@@ -2,14 +2,13 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-
 const MarketingPage = () => {
   return (
     <div className="flex justify-center items-center flex-col">
       <div className="bg-blue-100 w-full h-16 text-center flex justify-center items-center">
         <p>
-          Accelerate your teams' work with Atlassian Intelligence (AI) features
-          🤖 now available for all Premium and Enterprise!
+          Accelerate your teams&apos; work with Atlassian Intelligence (AI)
+          features 🤖
         </p>
         Learn more.
       </div>
@@ -31,7 +30,7 @@ const MarketingPage = () => {
                 className="w-[300px] px-4 py-3 border border-gray-300 bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               <button className="px-4 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700">
-                <Link href="/signup">Sign up – it’s free!</Link>
+              <Link href="/signup">Sign up – it&rsquo;s free!</Link>
               </button>
             </div>
           </div>

@@ -47,7 +47,7 @@ const Login = () => {
           {/* Link-Sign up & reset passwork*/}
           <div className="flex items-center justify-center text-sm text-blue-800 font-normal gap-2 mt-6 pb-5 border-b border-gray-200">
             <Link href="/resetpassword ">
-              <div className="hover:underline text-center">Can"t log in?</div>
+              <div className="hover:underline text-center">Can&apos;t log in?</div>
             </Link>
             <p>•</p>
             <Link href="/signup">
